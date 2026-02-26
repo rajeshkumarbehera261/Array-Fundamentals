@@ -13,12 +13,14 @@ public class TwoSum {
             }
 
             map.put(nums[i], i);
+            
+        }
+
+
     }
-
-
-}
+    
     public static void main(String[] args) {
         int[] arr = new int[]{3,4,0,1,-1,7};
         twoSum(arr, 7);
     }
-}
+} 
